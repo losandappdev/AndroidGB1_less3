@@ -7,7 +7,15 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="введите в поле информацию "
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:hint="введите в поле информацию "
