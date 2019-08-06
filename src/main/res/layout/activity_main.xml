@@ -7,9 +7,17 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
+        android:hint="введите в поле информацию "
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="введите в поле информацию "
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
@@ -21,6 +29,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Simple Button" />
+        android:text="Передача информации в другое окно" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/pic1"
+        />
 
 </LinearLayout>
